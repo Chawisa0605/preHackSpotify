@@ -7,7 +7,10 @@ import PlayList from './pages/PlayList.jsx'
 import Artist from './pages/Artist.jsx'
 
 const router = createBrowserRouter([
-
+  {
+    path: "/",
+    element: <PlayList />,
+  },
   {
     path: "/playlist/:playlistId",
     element: <PlayList />,
